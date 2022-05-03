@@ -2,7 +2,7 @@
 import sqlite3
 conn = sqlite3.connect('test.db')
 print("Opened database successfully");
-
+-----------------------------------------------
 #!/usr/bin/python
 import sqlite3
 conn = sqlite3.connect('test.db')
@@ -15,7 +15,7 @@ ADDRESS CHAR(50),
 SALARY REAL);''')
 print("Table created successfully");
 conn.close()
-
+----------------------------------------------------------------
 #!/usr/bin/python
 import sqlite3
 conn = sqlite3.connect('test.db')
@@ -31,7 +31,7 @@ VALUES (4, 'Mark', 25, 'Rich-Mond ', 65000.00 )");
 conn.commit()
 print("Records created successfully");
 conn.close()
-
+---------------------------------------------------------------------------
 !/usr/bin/python
 import sqlite3
 conn = sqlite3.connect('test.db')
@@ -43,7 +43,7 @@ for row in cursor:
     print("ADDRESS = ", row[2])
     print("SALARY = ", row[3], "\n")
     print("Operation done successfully");
-
+---------------------------------------------------------------------------
 #!/usr/bin/python
 import sqlite3
 conn = sqlite3.connect('test.db')
@@ -59,7 +59,7 @@ for row in cursor:
     print("SALARY = ", row[3], "\n")
     print("Operation done successfully");
 conn.close()
-
+-----------------------------------------------------------------------------
 #!/usr/bin/python
 import sqlite3
 conn = sqlite3.connect('test.db')
