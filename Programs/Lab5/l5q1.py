@@ -14,7 +14,7 @@ print("Please select operation : \n" \
 		"2. Subtraction \n" \
 		"3. Multiplication \n" \
 		"4. Division \n")
-select = int(input("Select operations form 1, 2, 3, 4 :"))
+select = int(input("Select operations from 1, 2, 3, 4 :"))
 if select == 1:
 	print(a, "+", b, "=", add(a,b))
 elif select == 2:
